@@ -1,0 +1,317 @@
+    *{
+        margin: 0;
+        font-family: 'Montserrat', 'Font Awesome 5 Free', serif !important;
+    }
+      
+    .auth-box.login {
+        max-width: 50%;
+        margin: auto;
+        padding: 50px;
+        height: 500px;
+    }
+    .auth-box.registrasi {
+        max-width: 50%;
+        margin: auto;
+        /* padding: 50px; */
+        height: 900px;
+    }
+
+
+    .container-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        padding: 0px 40px 20px 40px; /* padding bawah 20px buat ngasih space antara tulisan dan border */
+        /* border-bottom: 1px solid #000000; */
+    }
+    .container-navbar.navbar-cust {
+        border-bottom: 1px solid #7e8296;
+    }
+    .container-navbar img{
+        margin-right: 5px;
+        margin-top: -5px !important;
+    }
+    .navbar-brand{
+        color: #30364d;
+        font-weight:bolder;
+    }
+    .navbar-brand img{
+
+        margin-top: -5px;
+    }
+    .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+      
+    .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+      }
+    .dropdown-menu {
+        margin-top: 0;
+    }  
+
+    .content {
+        text-align: center;
+    }
+    .container-fluid{
+        max-width: 50%;
+    }
+    .container-fluid .page-title {
+        text-align: center;     
+    }
+    #simpan-regis {
+        margin-top: 60px;
+    }
+    #simpan-edit{
+        margin: 0px;
+    }
+    #text-registrasi {
+        text-align: center;
+    }
+    .form-group{
+        text-align: left;
+    }
+    .form-lain{
+        width: 630px !important;
+        margin:0 auto !important;
+    }
+    .button-group{
+        text-align: right;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: nowrap;
+    }
+    
+    .navbar-nav .nav-link {
+        white-space: nowrap;
+        margin-right: 10px;
+        color: black;
+    }
+    
+    .navbar-nav .nav-link:last-child {
+        margin-right: 0; /* Supaya link terakhir nggak punya margin extra di kanan */
+    }
+    .card {
+        min-width: 200px;
+        max-width: 253px;
+        margin: auto;
+    }
+ 
+    .upper-text {
+        padding: 50px 30px 30px 30px;
+    }
+    .upper-text p{
+        margin: 20px 300px;
+    }
+    
+    .upper-deskripsi{
+        margin-top: 50px;
+        margin-bottom: 50px
+    }
+    .col.col-produk{
+        margin-top: 30px;
+    }
+    .brand-footer{
+        font-weight: bolder;
+        font-size: 14px;
+    }
+    .form-checkout{
+        max-width: 70% !important;
+        margin: auto;
+    }
+    .form-checkout button{
+        display: flex;
+        margin: 0px auto;
+    }
+    .header.text-center {
+        margin-bottom: 40px;
+    }
+    .form-checkout label{
+        margin-left:120px;
+    }
+
+    .container.cont-profile{
+        min-height: 90vh;
+        margin: 0px auto;
+        /* border: 1px solid rgba(0, 0, 0, 0.2); 
+            padding-top: 50px; 
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); */
+    }
+
+    
+    .cont-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 700px;
+    }
+    
+      
+    .cont-profile-img {
+        margin-bottom: 20px;
+    }
+    .container.cont-keranjang{
+        min-height: 80vh;
+        margin: 0px auto;
+    }
+    .btn-primary.cont-profile{
+        margin-top: 20px;
+    }
+    .container.cont-body{
+        min-height: 100vh;
+        margin: 0px auto;
+    }
+
+    .container-footer{
+        background-color: #30364d;
+        color: #ffffff;
+        width: 100%;
+    }
+    .container-footer-landing{
+        background-color: #30364d;
+        color: #ffffff;
+        margin-top: 150px !important;
+    }
+
+    /* CSS untuk bagian bawah footer */
+    .bg-secondary {
+        background-color: #7e8296 !important;
+        color: #ffffff; 
+    }
+    .btn-primary{
+        background-color: #9165f7 !important;
+        border-color: #9165f7 !important;
+    }
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .content-section {
+        display: none;
+    }
+    .thead-cust{
+        background-color: #30364d !important;
+        color: white;
+    }
+    .table-cust{
+        font-size:10px !important;
+    }
+
+    .center-alert {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+    }
+
+
+    /* CSS untuk link di footer */
+    footer .text-white a {
+        color: #ffffff; 
+    }
+
+    h4.brand-footer{
+        font-size: 20px;
+    }
+
+    .upper-back-button {
+        text-decoration: none;
+        color: #7e8296; 
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 10px; 
+        border-radius: 5px;
+
+    #table-head-keranjang{
+        text-align: center !important;
+        align-items: center;
+        align-content: center;
+    }
+    .form-control-checkout{
+        display: block;
+        width: 50%;
+        margin: 0px auto;
+        border:1px solid #bcbcbc;
+    }
+
+    .header-text-center{
+        text-align: center !important;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }    
+    .btn-checkout {
+        margin-top: 5rem !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+
+    
+    @media (max-width: 991px) {
+        .card{
+            max-width: 200px;
+            margin: 0px auto;
+        }
+        .form-control-checkout{
+            width: 400px;
+        }
+        .label-checkout{
+            width: 400px;
+        }
+        .form-checkout label{
+            margin-left:20px !important;
+        }
+    }
+    @media (max-width: 768px) {
+        .navbar-nav {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .auth-box.registrasi {
+            max-width: 80%;
+            margin: auto; 
+            /* padding: 50px; */
+            height: 950px;
+        }
+        .auth-box.login {
+            max-width: 80%;
+            margin: auto; 
+            padding: 50px;
+            height: 550px;
+        }
+        .card{
+            max-width: 200px;
+            margin: 0px auto;
+        }
+        .upper-text p{
+            margin: 20px 100px;
+        }
+        .form-control-checkout{
+            width: 300px;
+        }
+        .label-checkout{
+            width: 300px;
+        }
+    }}
